@@ -9,11 +9,6 @@ pip install  kafka-python  --upgrade jinja2  flask  requests
 ```
 <hr/>
 
-<style>
-table, th, td {
-  border: 1px solid black;
-}
-</style>
 
 <table style="background-color:LightBlue;border: 1px solid black;">
 <tr style="background-color:Yellow;border: 1px solid black;"><th>Objective</th><th>Shell Command</th></tr>
