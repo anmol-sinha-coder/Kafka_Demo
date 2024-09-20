@@ -10,7 +10,7 @@ class Producer:
                                       value_serializer=lambda x:dumps(x).encode('utf-8'))
 
     def produce_weather_data(self,weather_data):
-        self.producer.send('weather_data',value=weather_data)
+        self.producer.send('weather_data_anmol',value=weather_data)
 
 city_list = ['PUNE','KOLHAPUR','SATARA','NASHIK','MUMBAI','NAGPUR','KARAD']
 producer = Producer()
